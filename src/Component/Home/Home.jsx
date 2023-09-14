@@ -12,7 +12,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex gap-6">
+
+    <div className="p-4 mx-auto flex gap-6">
       <div
         className="grid 
     md:grid-cols-2
