@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "image": "course1.jpg",
+      "courseName": "Introduction to Programming",
+      "details": "Learn the basics of programming with this introductory course.",
+      "credit": 3,
+      "price": 49.99
+    },
+    {
+      "id": 2,
+      "image": "course2.jpg",
+      "courseName": "Web Development Fundamentals",
+      "details": "Explore the fundamentals of web development and design.",
+      "credit": 4,
+      "price": 79.99
+    },
+    {
+      "id": 3,
+      "image": "course3.jpg",
+      "courseName": "Data Science Essentials",
+      "details": "Master the essential concepts of data science and analysis.",
+      "credit": 5,
+      "price": 99.99
+    },
+    {
+      "id": 4,
+      "image": "course4.jpg",
+      "courseName": "Machine Learning Basics",
+      "details": "Discover the foundations of machine learning and artificial intelligence.",
+      "credit": 4,
+      "price": 89.99
+    },
+    {
+      "id": 5,
+      "image": "course5.jpg",
+      "courseName": "Graphic Design Fundamentals",
+      "details": "Learn the principles of graphic design and digital art.",
+      "credit": 3,
+      "price": 59.99
+    },
+    {
+      "id": 6,
+      "image": "course6.jpg",
+      "courseName": "Mobile App Development",
+      "details": "Build mobile apps for iOS and Android platforms.",
+      "credit": 4,
+      "price": 79.99
+    },
+    {
+      "id": 7,
+      "image": "course7.jpg",
+      "courseName": "Digital Marketing Mastery",
+      "details": "Become an expert in digital marketing and SEO.",
+      "credit": 3,
+      "price": 69.99
+    },
+    {
+      "id": 8,
+      "image": "course8.jpg",
+      "courseName": "Photography Basics",
+      "details": "Learn the fundamentals of photography and composition.",
+      "credit": 2,
+      "price": 39.99
+    },
+    {
+      "id": 9,
+      "image": "course9.jpg",
+      "courseName": "Financial Planning",
+      "details": "Master the principles of personal finance and investment.",
+      "credit": 3,
+      "price": 49.99
+    }
+  ]
+  
