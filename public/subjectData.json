@@ -1,73 +1,73 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/0G8Vx2G/Rectangle-2.png",
-    "courseName": "Introduction to C Programming ",
-    "details": "Learn the basics of programming with this introductory course.",
+    "image": "https://i.ibb.co/5YFXN83/Rectangle-2-2.png",
+    "courseName": "Introduction to C Programming",
+    "details": "Dive into the world of programming with this introductory course to C. Learn the fundamental concepts and start your programming journey.",
     "credit": 3,
     "price": 49.99
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/6rMS7Gx/Rectangle-2-1.png",
-    "courseName": "Introduction to Algorithms ",
-    "details": "Explore the fundamentals of web development and design.",
+    "image": "https://i.ibb.co/09NPpsK/Rectangle-2-3.png",
+    "courseName": "Introduction to Algorithms",
+    "details": "Explore the intricate world of algorithms in web development and design. Master the fundamental principles that power the digital world.",
     "credit": 4,
     "price": 79.99
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/5YFXN83/Rectangle-2-2.png",
-    "courseName": "Introduction to C++ for DSA ",
-    "details": "Master the essential concepts of data science and analysis.",
+    "image": "https://i.ibb.co/m8v8hHk/Rectangle-2-4.png",
+    "courseName": "Introduction to C++ for DSA",
+    "details": "Gain expertise in data science and analysis through the essential concepts of C++. Learn how to manipulate data for meaningful insights.",
     "credit": 5,
     "price": 99.99
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/09NPpsK/Rectangle-2-3.png",
-    "courseName": "Introduction to OOP Python ",
-    "details": "Discover the foundations of machine learning and artificial intelligence.",
+    "image": "https://i.ibb.co/ydtnzdY/Rectangle-3.png",
+    "courseName": "Basic Data Structures",
+    "details": "Discover the building blocks of machine learning and artificial intelligence. Equip yourself with the core data structures for advanced problem-solving.",
     "credit": 4,
     "price": 89.99
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/m8v8hHk/Rectangle-2-4.png",
-    "courseName": "Graphic Design Fundamentals",
-    "details": "Learn the principles of graphic design and digital art.",
+    "image": "https://i.ibb.co/0G8Vx2G/Rectangle-2.png",
+    "courseName": "Introduction to OOP Python",
+    "details": "Immerse yourself in the principles of graphic design and digital art using Python's object-oriented programming. Unleash your creativity in the digital realm.",
     "credit": 3,
     "price": 59.99
   },
   {
     "id": 6,
     "image": "https://i.ibb.co/GpgtbFF/Rectangle-2-5.png",
-    "courseName": "Mobile App Development",
-    "details": "Build mobile apps for iOS and Android platforms.",
+    "courseName": "Software Engineering",
+    "details": "Build mobile apps for both iOS and Android platforms. Learn the art and science of software engineering and create applications that reach millions.",
     "credit": 4,
     "price": 79.99
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/NtR3mNF/Rectangle-2-6.png",
-    "courseName": "Digital Marketing Mastery",
-    "details": "Become an expert in digital marketing and SEO.",
+    "image": "https://i.ibb.co/wJcS3PK/Rectangle-3-1.png",
+    "courseName": "AWS, Cloud Computing",
+    "details": "Become an expert in digital marketing and SEO strategies using AWS and cloud computing. Harness the power of the cloud for online success.",
     "credit": 3,
     "price": 69.99
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/ydtnzdY/Rectangle-3.png",
-    "courseName": "Photography Basics",
-    "details": "Learn the fundamentals of photography and composition.",
+    "image": "https://i.ibb.co/6rMS7Gx/Rectangle-2-1.png",
+    "courseName": "Database (MySQL)",
+    "details": "Master the fundamentals of photography and composition through this MySQL database course. Store, manage, and organize your photos like a pro.",
     "credit": 2,
     "price": 39.99
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/wJcS3PK/Rectangle-3-1.png",
-    "courseName": "Financial Planning",
-    "details": "Master the principles of personal finance and investment.",
+    "image": "https://i.ibb.co/NtR3mNF/Rectangle-2-6.png",
+    "courseName": "Problem-Solving Part",
+    "details": "Develop your problem-solving skills to new heights. Also, master the principles of personal finance and investment for a secure financial future.",
     "credit": 3,
     "price": 49.99
   }

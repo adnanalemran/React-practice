@@ -4,6 +4,8 @@ import { FaDollarSign } from "react-icons/fa";
 import { BiBookOpen } from "react-icons/bi";
 
 const Card = ({ course, onSelectCourse }) => {
+
+    
   return (
     <div className="">
       <div className="card bg-white">
@@ -15,10 +17,10 @@ const Card = ({ course, onSelectCourse }) => {
             className="rounded-xl"
           />
         </figure>
-        <div className="card-body">
-          <h2 className="text-xl font-semibold">{course.courseName}</h2>
-          <p>{course.details}</p>
-          <div className="flex justify-between font-medium">
+        <div className="card-body p-4">
+          <h2 className="text-lg font-semibold">{course.courseName}</h2>
+          <p className="text-sm">{course.details}</p>
+          <div className="flex justify-between text-sm font-medium">
             <div className="price flex gap-1">
               <FaDollarSign className="mt-1" />
               <p>Price : {course.price}</p>

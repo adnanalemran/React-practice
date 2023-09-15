@@ -16,22 +16,17 @@ const Cart = ({ selectCourse }) => {
     0
   );
 
-  const handleAddCourse = () => {
-    if (totalCreditHours >= 20) {
-      window.alert("No more credit can be taken");
-      return;
-    }
+  
  
-  };
 
   return (
     <div>
       <div className="card bg-white">
         <div className="card-body">
-          <h2 className="text-sm text-primary font-semibold py-6 border-b-2">
+          <h2 className="text-xl text-primary font-semibold py-6 border-b-2">
             Credit Hour Remaining: {remainingCreditHoursDisplay} hr
           </h2>
-          <h3 className="font-bold text-xl">Selected Courses</h3>
+          <h3 className="font-bold  lg:text-xl">Selected Courses</h3>
           <ul className="list-decimal p-4">
             {selectCourse.map((course) => (
               <li key={course.id}>{course.courseName}</li>
@@ -41,6 +36,8 @@ const Cart = ({ selectCourse }) => {
             Total Credit Hour: {totalCreditHours} hr
           </p>
           <p className="py-6 font-bold">Total Price: {totalPrice} USD</p>
+
+       
    
         </div>
       </div>
