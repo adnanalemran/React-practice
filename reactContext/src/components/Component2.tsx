@@ -1,7 +1,9 @@
-import React, { useContext } from "react";
-import { USUser } from "../context/UserContext";
+import { Button, Flex } from "@chakra-ui/react";
+import { useContext } from "react";
+
 import { NumberCalculation } from "../context/CalculateContext";
-import { Button, Flex, Heading } from "@chakra-ui/react";
+import { USUser } from "../context/UserContext";
+import Header from "./Shared/Header";
 
 const Component2 = () => {
   const user = useContext(USUser);
@@ -12,9 +14,7 @@ const Component2 = () => {
 
   return (
     <div>
-      <Heading as="h1" size="xl">
-        Component 2
-      </Heading>
+      <Header />
       <p>Name: {user.name}</p>
       <p>Age: {user.age}</p>
 
