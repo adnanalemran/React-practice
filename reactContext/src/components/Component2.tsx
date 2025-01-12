@@ -1,16 +1,20 @@
 import React, { useContext } from "react";
 import { USUser } from "../context/UserContext";
 import { NumberCalculation } from "../context/CalculateContext";
+import { Button, Flex, Heading } from "@chakra-ui/react";
 
 const Component2 = () => {
-  const user = useContext(USUser); // Consume user context
+  const user = useContext(USUser);
   const { number1, number2, setNumber1, setNumber2 } =
-    useContext(NumberCalculation); // Consume number calculation context
+    useContext(NumberCalculation);
 
-  const result = number1 + number2; // Calculate sum dynamically
+  const result = number1 + number2;
 
   return (
     <div>
+      <Heading as="h1" size="xl">
+        Component 2
+      </Heading>
       <p>Name: {user.name}</p>
       <p>Age: {user.age}</p>
 
@@ -37,6 +41,10 @@ const Component2 = () => {
       </div>
 
       <p>Sum: {result}</p>
+      <Flex gap="4" padding={4}>
+        <Button>Click me</Button>
+        <Button>Click me</Button>
+      </Flex>
     </div>
   );
 };
