@@ -1,12 +1,15 @@
-import { useState } from "react";
+import React from "react";
 import Component2 from "./Component2";
+import { UserProvider } from "../context/UserContext";
+import { NumberCalculationProvider } from "../context/CalculateContext";
 
 const Component1 = () => {
-  const [user, setUser] = useState({ name: "John", age: 30 });
   return (
-    <div>
-      <Component2 user={user} />
-    </div>
+    <UserProvider>
+      <NumberCalculationProvider>
+        <Component2 />
+      </NumberCalculationProvider>
+    </UserProvider>
   );
 };
 
