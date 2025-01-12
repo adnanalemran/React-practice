@@ -1,3 +1,4 @@
+import React, { useRef } from "react";
 import { Avatar } from "@/components/ui/avatar";
 import {
   DrawerActionTrigger,
@@ -17,20 +18,21 @@ import {
   MenuRoot,
   MenuTrigger,
 } from "@/components/ui/menu";
-
 import {
   Box,
   Button,
   Flex,
   Heading,
   Input,
-  Link,
   Stack,
   Text,
 } from "@chakra-ui/react";
 import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
+  // Create a ref for the DrawerRoot
+  const drawerFocusRef = useRef<HTMLButtonElement | null>(null);
+
   return (
     <Box background="tomato" width="100%" padding="4" color="white">
       <Flex gap="4" align="center" justify="space-between">
@@ -38,7 +40,7 @@ const Header = () => {
           Component 2
         </Heading>
 
-        <Flex align={"center"} display={{ base: "none", lg: "flex" }} gap="4">
+        <Flex align="center" display={{ base: "none", lg: "flex" }} gap="4">
           <Text
             fontWeight="medium"
             _hover={{ color: "black", cursor: "pointer" }}
@@ -57,14 +59,11 @@ const Header = () => {
             </MenuTrigger>
             <MenuContent>
               <MenuItem value="new-txt">
-                {" "}
-                <Link href="https://github.com/adnanalemran">
-                  Branch 1
-                </Link>{" "}
+                <a href="https://github.com/adnanalemran">Branch 1</a>
               </MenuItem>
-              <MenuItem value="new-txt">Branch 2 </MenuItem>
-              <MenuItem value="new-txt">Branch 3 </MenuItem>
-              <MenuItem value="new-txt">Branch 4 </MenuItem>
+              <MenuItem value="new-txt">Branch 2</MenuItem>
+              <MenuItem value="new-txt">Branch 3</MenuItem>
+              <MenuItem value="new-txt">Branch 4</MenuItem>
             </MenuContent>
           </MenuRoot>
           <Avatar
@@ -74,7 +73,7 @@ const Header = () => {
         </Flex>
 
         <Box display={{ base: "block", lg: "none" }} cursor="pointer">
-          <DrawerRoot initialFocusEl={() => ref.current}>
+          <DrawerRoot initialFocusEl={() => drawerFocusRef.current}>
             <DrawerBackdrop />
             <DrawerTrigger asChild>
               <TiThMenu size="24px" />
@@ -95,9 +94,10 @@ const Header = () => {
               </DrawerBody>
               <DrawerFooter>
                 <DrawerActionTrigger asChild>
-                  <Button variant="outline">Close</Button>
+                  <Button ref={drawerFocusRef} variant="outline">
+                    Close
+                  </Button>
                 </DrawerActionTrigger>
-                {/* <Button>Save</Button> */}
               </DrawerFooter>
               <DrawerCloseTrigger />
             </DrawerContent>
