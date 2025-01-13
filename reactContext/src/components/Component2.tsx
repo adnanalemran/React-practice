@@ -14,7 +14,6 @@ const Component2 = () => {
 
   return (
     <div>
-      <Header />
       <p>Name: {user.name}</p>
       <p>Age: {user.age}</p>
 
